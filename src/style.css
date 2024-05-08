@@ -1,1 +1,112 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.payment-form {
+  margin: 30px;
+  border: 1px solid lightgray;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-check-inline {
+  margin-bottom: 0;
+}
+
+header {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+}
+
+.alert-box {
+  /* margin: 20px; */
+  margin-top: 20px;
+}
+
+.payment-form-fields {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row-0,
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  margin-bottom: 20px;
+}
+
+.row-1 {
+  display: flex;
+  gap: 30px;
+}
+
+.div-cardnumber {
+  flex: 4;
+}
+
+.div-cvc {
+  flex: 2;
+}
+
+.div-amount {
+  flex: 3;
+}
+
+.row-2 {
+  display: flex;
+  gap: 30px;
+}
+
+.div-firstname,
+.div-lastname {
+  flex: 1;
+}
+
+.row-3 {
+  display: flex;
+  gap: 30px;
+}
+
+.div-city {
+  flex: 2;
+}
+
+.div-state {
+  flex: 1;
+}
+
+.div-postalcode {
+  flex: 1;
+}
+
+.row-4 {
+  display: flex;
+  gap: 30px;
+}
+
+.div-accept-radios {
+  flex: 1;
+}
+
+.div-radio-options {
+  background-color: gray;
+  padding: 10px;
+  width: 39%;
+}
+
+.fa-brands {
+  color: white;
+  font-size: large;
+}
+
+.div-message {
+  flex: 1;
+}
+
+footer {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > button:first-child {
+  margin-right: 10px;
+}
